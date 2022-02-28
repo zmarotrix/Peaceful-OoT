@@ -1,0 +1,13 @@
+{
+  "name": "Peaceful Mode",
+  "version": "0.9.9",
+  "core": "Z64Lib",
+  "description": "Removes enemies and bosses on the fly! Togglable",
+  "main": "Peaceful.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MARO",
+  "license": "ISC"
+}

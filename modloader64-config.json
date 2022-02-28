@@ -1,0 +1,67 @@
+{
+  "ModLoader64": {
+    "rom": "Legend of Zelda The - Ocarina of Time U V1.0.z64",
+    "patch": "Oot_Vanillamizer.bps",
+    "isServer": true,
+    "isClient": true,
+    "supportedConsoles": [
+      "Mupen64Plus"
+    ],
+    "selectedConsole": "Mupen64Plus",
+    "coreOverride": "",
+    "disableVIUpdates": false,
+    "enableDebugger": false
+  },
+  "NetworkEngine.Client": {
+    "isSinglePlayer": true,
+    "forceServerOverride": false,
+    "ip": "127.0.0.1",
+    "port": 8082,
+    "lobby": "bear-yearly-53",
+    "nickname": "Player",
+    "password": "",
+    "forceTCPMode": false
+  },
+  "NetworkEngine.Server": {
+    "port": 8082,
+    "udpPort": 8082,
+    "patchSizeLimitMB": 10
+  },
+  "Mupen64Plus": {
+    "rsp": "mupen64plus-rsp-hle",
+    "video": "mupen64plus-video-gliden64",
+    "audio": "mupen64plus-audio-sdl",
+    "input": "mupen64plus-input-sdl"
+  },
+  "OcarinaofTime": {
+    "skipN64Logo": true
+  },
+  "OotOnline": {
+    "keySync": true,
+    "notifications": true,
+    "notificationSound": true,
+    "nameplates": true,
+    "muteNetworkedSounds": false,
+    "muteLocalSounds": false,
+    "syncMasks": true,
+    "syncBottleContents": true,
+    "diagnosticMode": false,
+    "autosaves": true
+  },
+  "OotO_WorldEvents": {
+    "adultCostume": "",
+    "childCostume": "",
+    "disableCostumeManager": false,
+    "equipmentLoadout": {},
+    "voice": "",
+    "anim_bank": "",
+    "assetcache": ""
+  },
+  "Z64O_WorldEvents_Server": {
+    "Z64OEventsActive": [],
+    "Z64OAssetsURL": []
+  },
+  "N64TexturePacks": {
+    "texturePackStatus": {}
+  }
+}
